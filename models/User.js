@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
+const validateEmail = require('../utils/validateEmail');
 
 const userSchema = new Schema(
   {
@@ -13,8 +14,11 @@ const userSchema = new Schema(
       type: String,
       required: true,
       unique: true,
-      validate: [validateEmail, 'Please fill a valid email address']
-
+      validate: [validateEmail, "Please fill a valid email address"],
+      match: [
+        /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+        "Please fill a valid email address",
+      ],
     },
     thoughts: [
       {
