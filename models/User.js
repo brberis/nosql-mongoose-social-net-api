@@ -45,5 +45,5 @@ userSchema.virtual('friendCount').get(function() {
 // create the User model using the UserSchema
 const User = model('User', userSchema);
 
-// export the Pizza model
+// export model
 module.exports = User;
