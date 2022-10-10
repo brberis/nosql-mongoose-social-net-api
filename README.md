@@ -61,6 +61,8 @@ Use Insomnia to try the Restful API implementation with the http methods POST, G
 
 ## Features
 
+- Email validation
+- Formated timestamps
 - NodeJS
 - ExpressJS Server
 - Mongoose ODM
