@@ -57,7 +57,7 @@ Use Insomnia to try the Restful API implementation with the http methods POST, G
 
 ### Watch this video.
 
-<a href="https://youtu.be/-PFLMLkFNaY"><img src="https://github.com/brberis/orm-ecommerce-bkend/blob/main/assets/images/video.png?raw=true" width="496" height="280"></a>
+<a href="https://youtu.be/jiQ14q_-DkI"><img src="https://github.com/brberis/nosql-mongoose-social-net-api/blob/main/assets/images/video.png?raw=true" width="496" height="280"></a>
 
 ## Features
 
